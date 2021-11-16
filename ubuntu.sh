@@ -58,7 +58,7 @@ command+=" -b ubuntu-fs/root:/dev/shm"
 ## uncomment the following line to mount /sdcard directly to / 
 #command+=" -b /sdcard"
 command+=" -w /root"
-command+=" -k 4.14.81"
+command+=" -k 4.0.0"
 command+=" /usr/bin/env -i"
 command+=" HOME=/root"
 command+=" PATH=/usr/local/sbin:/usr/local/bin:/bin:/usr/bin:/sbin:/usr/sbin:/usr/games:/usr/local/games"
